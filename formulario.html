@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Maquetación para el Master en Frameworks JavaScript</title>
+
+        <!--HOJA DE ESTILOS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    </head>
+    <body>
+        <header id="header">
+            <div class="center">
+                <!-- LOGO -->
+                <div id="logo">
+                    <img src="assets/imagenes/logo.jpg" class="B app-logo" alt="Logotipo" />
+                    
+                </div>
+                
+                <!-- MENU -->
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="formulario.html">Formulario</a>
+                        </li>
+                        <li>
+                            <a href="#">Pagina 1</a>
+                        </li>
+                     
+                </nav>
+
+                <!--LIMPIAR FLOTADOS-->
+                <div class="clearfix"></div>
+            </div>
+        </header>
+
+
+<div class="center">
+    <section id="content">
+       
+<h1 class="subheader">Formulario</h1>
+
+<form action="" class="min-form">
+<div class="form-group">
+
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="">
+</div>
+
+<div class="form-group">
+<label for="apellidos">Apellidos:</label>
+<input type="text" name="nombre" id="">
+
+</div>
+
+<div class="form-group">
+<label for="biografia">Biografia:</label>
+<textarea name="bio"></textarea>
+</div>
+
+<div class="form-group radiobuttoms">
+    <input type="radio" name="hombre" value="hombre" />Hombre
+    <input type="radio" name="mujer" value="mujer" />Hombre
+    <input type="radio" name="otro" value="otro" />Otro
+ 
+</div>  
+<div class="clearfix"></div>
+<input type="submit"  value="enviar" class="btn btn-success"/>
+
+</form>
+    <div class="clearfix"></div>
+</article>
+    </section>
+</div>
+    <aside id="sidebar">
+    <div id="nav-blog" class="sidebar-item">
+        <h3>Puedes hacer esto</h3>
+        <a href="#" class="btn btn-success">Crear articulos</a>
+        </div>    
+        <div id="search" class="sidebar-item">
+            <h3>Buscador</h3>
+            <p>Encuentra el articulo que buscas</p>
+            <form>
+                <input type="text" name="search"/>
+                 <input type="submit" value="enviar" name="submit" class="btn" />
+            </form>
+        </div>
+    
+    </aside>
+    <div class="clearfix"></div>
+
+<footer id="footer">
+<div class="center">
+    <p>
+        &copy; alberto de la cruz 
+    </p>
+</div>
+</footer>
+</body>
+</html>
